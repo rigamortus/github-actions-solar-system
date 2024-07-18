@@ -49,7 +49,7 @@ jobs:
           - name: node install
             run: npm install
           - name: code coverage
-            run: npm run code-coverage
+            run: npm run coverage
           - name: upload artifact
             uses: actions/upload-artifact@v3
             with:
